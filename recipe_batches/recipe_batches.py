@@ -3,6 +3,13 @@
 import math
 
 def recipe_batches(recipe, ingredients):
+    batches = 0
+    done = False
+    
+    if len(recipe) > len(ingredients):
+        return 0
+
+    
   pass 
 
 
